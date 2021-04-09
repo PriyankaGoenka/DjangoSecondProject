@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SecondApp",
+    "\\SecondApp\\Migrations",
+    "\\SecondApp\\static",
+    "\\SecondApp\\static\\css",
+    "\\SecondApp\\Templates",
+    "\\SecondApp\\Templates\\SecondP"
+  ],
+  "SelectedNode": "\\SecondApp\\models.py",
+  "PreviewInSolutionExplorer": false
+}

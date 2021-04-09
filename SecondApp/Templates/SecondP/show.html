@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Records</title>
+     {% load staticfiles %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<table class="table table-striped table-bordered table-sm"
+    <thead class="thead-dark">
+    <tr>
+        <th>Username</th>
+        <th>Email Id</th>
+        <th>Password</th>        
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+{% for user in Loginn %}
+        <tr>
+            <td>{{user.uname}}</td>
+            <td>{{user.uemail}}</td>
+            <td>{{user.upass}}</td>
+            <td>
+                
+            </td>
+        </tr>
+{% endfor %}
+    </tbody>
+
+</body>
+</html>
